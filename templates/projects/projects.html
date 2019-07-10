@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="colorlib-loader"></div>
+
+	<div id="page">
+		{% include 'partilas/_navbar.html' %}
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({% static 'images/img_bg_3.jpg' %});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Secret of Our Success</h2>
+				   					<h1>Our Projects</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-project">
+			<div class="container">
+				<div class="row">
+					{% for project in object_list %}
+                        <div class="col-md-6 animate-box">
+                            <div class="item item-2">
+                                <a href="{{ project.image.url }}" class="project image-popup-link" style="background-image: url({{ project.image.url }});">
+                                    <div class="desc-t">
+                                        <div class="desc-tc">
+                                            <div class="desc">
+                                                <h3><span><small>{{ project.id }}</small></span> {{ project.title }}</h3>
+                                                <p>{{ project.description }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+				</div>
+			</div>
+		</div>
+    </div>
+{% endblock %}

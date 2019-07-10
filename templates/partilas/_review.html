@@ -1,0 +1,29 @@
+<div id="colorlib-testimony" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+                <div class="col-md-4 animate-box colorlib-heading animate-box">
+						<span class="sm">Testimonial</span>
+						<h2><span class="thin">What Our</span> <span class="thick">Client Says</span></h2>
+					</div>
+					<div class="col-md-8 col-md-push-1">
+						<div class="row animate-box">
+							<span class="icon"><i class="icon-quotes-left"></i></span>
+							<div class="owl-carousel1">
+								{% for review in reviews %}
+                                    <div class="item">
+                                        <div class="testimony-slide active">
+                                            <div class="testimony-wrap">
+                                                <blockquote>
+                                                    <span>{{ review.full_name }}</span>
+                                                    <p>{{ review.description }}</p>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

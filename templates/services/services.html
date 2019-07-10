@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="colorlib-loader"></div>
+
+	<div id="page">
+		{% include 'partilas/_navbar.html' %}
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({% static 'images/img_bg_2.jpg' %});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>What We Do?</h2>
+				   					<h1>Our Services</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row">
+					{% for service in object_list %}
+                        <div class="col-md-6 animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <i class="flaticon-skyline"></i>
+                                </span>
+                                <div class="desc">
+                                    <h3>{{ service.title }}</h3>
+                                    <p>{{ service.description|linebreaks }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <div class="item item-2">
+                                <a href="{{ service.image.url }}" class="project image-popup-link ser" style="background-image: url({{ service.image.url }});">
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+				</div>
+			</div>
+		</div>
+
+    </div>
+{% endblock %}

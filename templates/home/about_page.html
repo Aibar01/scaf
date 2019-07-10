@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="colorlib-loader"></div>
+
+	<div id="page">
+		{% include 'partilas/_navbar.html' %}
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({% static 'images/img_bg_1.jpg' %});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Company Info</h2>
+				   					<h1>About Us</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-about">
+			<div class="container">
+				.<div class="row row-pb-lg">
+					<div class="col-md-6">
+						<div class="about animate-box">
+							<h2>Welcome to our Company</h2>
+							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="{% static 'images/img_bg_4.jpg' %}" alt="Free HTML5 Bootstrap Template by colorlib.com">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
+						<span class="sm">Team</span>
+						<h2><span class="thin">Our</span> <span class="thick">Engineers</span></h2>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+					</div>
+				</div>
+				<div class="row">
+					{% for engineer in engineers %}
+					    <div class="col-md-4 text-center animate-box">
+                            <div class="staff" class="staff-img" style="background-image: url({{ engineer.image.url }});">
+                                <a href="#" class="desc">
+                                    <h3>{{ engineer }}</h3>
+                                    <span>{{ engineer.position }}</span>
+                                    <div class="parag">
+                                        <p>{{ engineer.description }}</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+					{% endfor %}
+
+				</div>
+			</div>
+		</div>
+
+
+    </div>
+    {% include 'partilas/_review.html' %}
+    {% include 'partilas/_review_form.html' %}
+{% endblock %}
