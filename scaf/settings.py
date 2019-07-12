@@ -71,7 +71,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'scaffolding',
         'USER': 'scaf',
-        'PASSWORD': 'A4655462340a',
+        'PASSWORD': 'A4655462340',
         'HOST': 'localhost',
         'PORT': '',
     }
