@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Engineer, Review
+from .models import Engineer, Review, Certificate
 
 
 class EngineerAdmin(admin.ModelAdmin):
@@ -16,3 +16,4 @@ class ReviewAdmin(admin.ModelAdmin):
 
 admin.site.register(Engineer, EngineerAdmin)
 admin.site.register(Review, ReviewAdmin)
+admin.site.register(Certificate)

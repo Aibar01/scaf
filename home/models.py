@@ -12,6 +12,10 @@ class Engineer(models.Model):
         return f'{self.first_name} {self.last_name}'
 
 
+class Certificate(models.Model):
+    certificate_file = models.FileField(upload_to='certificates/%Y/%m/%d')
+
+
 class Review(models.Model):
     full_name = models.CharField(max_length=100)
     description = models.TextField()

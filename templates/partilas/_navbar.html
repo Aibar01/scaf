@@ -3,14 +3,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-2">
-                    <div id="colorlib-logo"><a href="{% url 'home' %}">Architect</a></div>
+                    <div id="colorlib-logo"><a href="{% url 'home' %}">Scaffolding</a></div>
                 </div>
                 <div class="col-xs-10 text-right menu-1">
                     <ul>
                         <li {% if '/' == request.path %} class="active" {% endif %}><a href="{% url 'home' %}">Home</a></li>
                         <li {% if 'projects' in request.path %} class="active" {% endif %}><a href="{% url 'projects' %}">Projects</a></li>
                         <li {% if 'services' in request.path %} class="active" {% endif %}><a href="{% url 'services' %}">Services</a></li>
-                        <li><a href="blog.html">Blog</a></li>
                         <li {% if 'about' in request.path %} class="active" {% endif %}><a href="{% url 'about' %}">About</a></li>
                         <li {% if 'contact' in request.path %} class="active" {% endif %}><a href="{% url 'contact' %}">Contact</a></li>
                     </ul>

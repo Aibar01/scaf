@@ -37,7 +37,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<img class="img-responsive" src="{% static 'images/img_bg_4.jpg' %}" alt="Free HTML5 Bootstrap Template by colorlib.com">
+						<img class="img-responsive" src="{% static 'images/img_bg_4.jpg' %}" alt="Scaf">
 					</div>
 				</div>
 				<div class="row">
@@ -50,7 +50,7 @@
 				<div class="row">
 					{% for engineer in engineers %}
 					    <div class="col-md-4 text-center animate-box">
-                            <div class="staff" class="staff-img" style="background-image: url({{ engineer.image.url }});">
+                            <div class="staff staff-img" style="background-image: url({{ engineer.image.url }});">
                                 <a href="#" class="desc">
                                     <h3>{{ engineer }}</h3>
                                     <span>{{ engineer.position }}</span>
@@ -63,9 +63,28 @@
 					{% endfor %}
 
 				</div>
+                <div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
+						<span class="sm">Progress</span>
+						<h2><span class="thin">Our</span> <span class="thick">Certifications</span></h2>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+					</div>
+				</div>
+				<div class="row">
+					{% for certificate in certificates %}
+					    <div class="col-md-4 text-center animate-box">
+                            <div>
+                                <embed src="{{ certificate.certificate_file.url }}" width="314px" height="392px" />
+                            </div>
+                            <div>
+                                <a href="{{ certificate.certificate_file.url }}"></a>
+                            </div>
+                        </div>
+					{% endfor %}
+
+				</div>
 			</div>
 		</div>
-
 
     </div>
     {% include 'partilas/_review.html' %}
