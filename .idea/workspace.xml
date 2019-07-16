@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decb3f6c-e4c0-4ed4-8dd5-3b63cbd884ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/bg1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/num_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/num_bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/services_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/services/service_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scaf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/blog-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/building-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/cover_img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/img_bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/img_bg_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/img_bg_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/person1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/person2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/person3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaf/static/images/person4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contacts/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacts/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/about_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="525">
               <caret line="68" column="102" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
               <folding>
                 <element signature="e#256#322#0#HTML" expanded="true" />
@@ -143,6 +107,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scaf/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -197,7 +179,6 @@
         <option value="$PROJECT_DIR$/services/views.py" />
         <option value="$PROJECT_DIR$/templates/service_detail.html" />
         <option value="$PROJECT_DIR$/services/urls.py" />
-        <option value="$PROJECT_DIR$/scaf/settings.py" />
         <option value="$PROJECT_DIR$/services/models.py" />
         <option value="$PROJECT_DIR$/templates/projects/projects.html" />
         <option value="$PROJECT_DIR$/templates/services/services.html" />
@@ -205,6 +186,7 @@
         <option value="$PROJECT_DIR$/templates/contacts/contacts.html" />
         <option value="$PROJECT_DIR$/templates/home/home_page.html" />
         <option value="$PROJECT_DIR$/templates/home/about_page.html" />
+        <option value="$PROJECT_DIR$/scaf/settings.py" />
       </list>
     </option>
   </component>
@@ -231,12 +213,6 @@
               <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="scaf" type="462c0819:PsiDirectoryNode" />
               <item name="scaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,12 +299,12 @@
       <workItem from="1563190865653" duration="33000" />
       <workItem from="1563200751679" duration="282000" />
       <workItem from="1563207175845" duration="606000" />
-      <workItem from="1563271010389" duration="8784000" />
+      <workItem from="1563271010389" duration="10957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56103000" />
+    <option name="totallyTimeSpent" value="58276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
@@ -338,7 +314,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -349,7 +325,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -558,9 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -568,13 +541,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scaf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -622,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -673,12 +632,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="525">
           <caret line="68" column="102" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
           <folding>
             <element signature="e#256#322#0#HTML" expanded="true" />
             <element signature="e#2216#2272#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/projects/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
