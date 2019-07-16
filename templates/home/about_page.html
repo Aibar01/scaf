@@ -10,7 +10,7 @@
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url({% static 'images/img_bg_1.jpg' %});">
+			   	<li style="background-image: url({% static 'images/bg2.jpg' %});">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -44,14 +44,14 @@
 					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
 						<span class="sm">Team</span>
 						<h2><span class="thin">Our</span> <span class="thick">Engineers</span></h2>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+						<p>We employ only the most highly specialized workers.</p>
 					</div>
 				</div>
 				<div class="row">
 					{% for engineer in engineers %}
 					    <div class="col-md-4 text-center animate-box">
                             <div class="staff staff-img" style="background-image: url({{ engineer.image.url }});">
-                                <a href="#" class="desc">
+                                <a class="desc">
                                     <h3>{{ engineer }}</h3>
                                     <span>{{ engineer.position }}</span>
                                     <div class="parag">
@@ -66,8 +66,7 @@
                 <div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
 						<span class="sm">Progress</span>
-						<h2><span class="thin">Our</span> <span class="thick">Certifications</span></h2>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+						<h2><span class="thin">Our</span> <span class="thick">Certificates</span></h2>
 					</div>
 				</div>
 				<div class="row">

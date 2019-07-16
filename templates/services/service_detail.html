@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="colorlib-loader"></div>
+
+	<div id="page">
+		{% include 'partilas/_navbar.html' %}
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url({% static 'images/services_bg.jpg' %});">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Read More</h2>
+				   					<h1>{{ object.title }}</h1>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-blog">
+			<div class="container">
+				<div class="row">
+					<article class="animate-box">
+						<div class="blog-img" style="background-image: url({{ object.image.url }});"></div>
+						<div class="entry">
+							<h2>{{ object.title }}</h2>
+							<p>{{ object.description }}</p>
+                            {% if object.associated %}
+                                <p class="meta-2"><span> Associated with:</span></p>
+                                <img src="{{ object.associated.url }}" alt="associated company" width="200">
+                            {% endif %}
+						</div>
+
+					</article>
+					<article class="animate-box">
+						{% if object.in_img1 %}
+                            <div class="col-md-4 text-center animate-box">
+                                <a href="{{ object.in_img1.url }}"><div class="staff staff-img" style="background-image: url({{ object.in_img1.url }});"></div></a>
+                            </div>
+                        {% endif %}
+                        {% if object.in_img2 %}
+                            <div class="col-md-4 text-center animate-box">
+                                <a href="{{ object.in_img2.url }}"><div class="staff staff-img" style="background-image: url({{ object.in_img2.url }});"></div></a>
+                            </div>
+                        {% endif %}
+                        {% if object.in_img3 %}
+                            <div class="col-md-4 text-center animate-box">
+                                <a href="{{ object.in_img3.url }}"><div class="staff staff-img" style="background-image: url({{ object.in_img3.url }});"></div></a>
+                            </div>
+                        {% endif %}
+					</article>
+				</div>
+			</div>
+		</div>
+    </div>
+{% endblock %}

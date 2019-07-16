@@ -10,7 +10,7 @@
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url({% static 'images/img_bg_2.jpg' %});">
+			   	<li style="background-image: url({% static 'images/services_bg.jpg' %});">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -37,7 +37,7 @@
                                     <i class="flaticon-skyline"></i>
                                 </span>
                                 <div class="desc">
-                                    <h3>{{ service.title }}</h3>
+                                    <h3><a href="{% url 'service_detail' service.id %}">{{ service.title }}</a></h3>
                                     <p>{{ service.description|linebreaks }}</p>
                                 </div>
                             </div>
