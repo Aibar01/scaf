@@ -69,8 +69,8 @@ WSGI_APPLICATION = 'scaf.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'aibar',
-        'USER': 'scaf',
+        'NAME': 'scaf',
+        'USER': 'aibar',
         'PASSWORD': 'A4655462340a',
         'HOST': 'localhost',
         'PORT': '',
