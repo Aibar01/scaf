@@ -2,7 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decb3f6c-e4c0-4ed4-8dd5-3b63cbd884ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scaf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scaf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/certificates/2019/07/11/CCA-Certificate-Java_Level_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/certificates/2019/07/11/CCA-Certificate-Java_Level_1_pSALSvb.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/certificates/2019/07/11/RU01912214.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/certificates/2019/07/11/RU01912214_a33e9rV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/engineers/2019/07/10/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/engineers/2019/07/10/person2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/engineers/2019/07/10/person3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/2019/07/10/building-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/2019/07/10/building-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/2019/07/16/adam-muise-N8weupu56o8-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/2019/07/16/adam-muise-N8weupu56o8-unsplash_EwmQkmK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/2019/07/16/adrien-olichon-YSVt8ZMx6sY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/Y%/m%/d%/building-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/projects/Y%/m%/d%/building-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/building-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/building-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/building-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/building-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/cover_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/general.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/general_Pc6Rzmm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/general_QhMVLSJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/general_rEWds0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/10/general_yhPqbUN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/16/action-builder-construction-544966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/16/action-builder-construction-544966_kupHK6x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/16/clem-onojeghuo-zZza888FSKg-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/2019/07/16/construction-helmet-industry-1216589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/associated/2019/07/16/urker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/associated/2019/07/16/urker_JbTBqSf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/activity-blueprint-building-583393.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/apartment-architecture-building-2209529.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/architecture-blur-bright-1329061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/building-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/building-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/building-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/construction-site-build-construction-work-159306.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/guilherme-cunha-4zwozQxDbD4-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/matthew-hamilton-v_CxSroHKWg-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/services/in/2019/07/16/pexels-photo-1145434.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/templates/contacts/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="e#301#365#0#HTML" expanded="true" />
               </folding>
@@ -42,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/services/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="255">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="e#256#317#0#HTML" expanded="true" />
               </folding>
@@ -64,10 +105,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home/home_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/services/service_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="68" />
+            <state relative-caret-position="268">
+              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
               <folding>
                 <element signature="e#256#317#0#HTML" expanded="true" />
               </folding>
@@ -75,14 +128,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scaf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+            <state relative-caret-position="457">
+              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
               <folding>
                 <marker date="1563380313672" expanded="true" signature="2024:2256" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scaf/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -105,6 +167,7 @@
       <find>form-group</find>
       <find>btn</find>
       <find>proj</find>
+      <find>sla</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,10 +208,10 @@
         <option value="$PROJECT_DIR$/templates/partilas/_footer.html" />
         <option value="$PROJECT_DIR$/templates/home/about_page.html" />
         <option value="$PROJECT_DIR$/templates/services/service_detail.html" />
-        <option value="$PROJECT_DIR$/templates/services/services.html" />
         <option value="$PROJECT_DIR$/templates/contacts/contacts.html" />
         <option value="$PROJECT_DIR$/templates/projects/projects.html" />
         <option value="$PROJECT_DIR$/scaf/settings.py" />
+        <option value="$PROJECT_DIR$/templates/services/services.html" />
       </list>
     </option>
   </component>
@@ -174,18 +237,7 @@
             <path>
               <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="scaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaf" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
@@ -294,18 +346,18 @@
       <workItem from="1563200751679" duration="282000" />
       <workItem from="1563207175845" duration="606000" />
       <workItem from="1563271010389" duration="20430000" />
-      <workItem from="1563372734978" duration="3763000" />
+      <workItem from="1563372734978" duration="8096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71512000" />
+    <option name="totallyTimeSpent" value="75845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27327824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27327824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,7 +372,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.38552916" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.38552916" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -418,13 +470,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scaf/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -566,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/home_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="77" column="71" selection-start-line="77" selection-start-column="71" selection-end-line="77" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partilas/_navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -594,30 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services/service_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="e#256#317#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding>
-            <element signature="e#256#317#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contacts/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="e#301#365#0#HTML" expanded="true" />
           </folding>
@@ -634,16 +652,56 @@
     <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scaf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+        <state relative-caret-position="457">
+          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
           <folding>
             <marker date="1563380313672" expanded="true" signature="2024:2256" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/services/2019/07/16/construction-helmet-industry-1216589.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services/service_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="e#256#317#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="125" column="62" lean-forward="true" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#256#317#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

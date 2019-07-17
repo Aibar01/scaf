@@ -38,7 +38,7 @@
                                 </span>
                                 <div class="desc">
                                     <h3><a href="{% url 'service_detail' service.id %}">{{ service.title }}</a></h3>
-                                    <p>{{ service.description|linebreaks }}</p>
+                                    <p>{{ service.description|linebreaks|slice:":200" }}</p>
                                 </div>
                             </div>
                         </div>
