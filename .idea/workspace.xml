@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decb3f6c-e4c0-4ed4-8dd5-3b63cbd884ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/about_page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="76" column="82" selection-start-line="76" selection-start-column="82" selection-end-line="76" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/services/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="255">
               <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="e#256#317#0#HTML" expanded="true" />
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="114" column="113" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="113" />
+            <state relative-caret-position="162">
+              <caret line="114" column="117" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="117" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -87,13 +87,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scaf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+            <state relative-caret-position="262">
+              <caret line="79" selection-start-line="79" selection-end-line="84" selection-end-column="3" />
               <folding>
-                <marker date="1563380313672" expanded="true" signature="2024:2256" ph="..." />
+                <marker date="1563390028968" expanded="true" signature="506:537" ph="..." />
+                <marker date="1563390028968" expanded="true" signature="2024:2256" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,6 +128,7 @@
       <find>btn</find>
       <find>proj</find>
       <find>sla</find>
+      <find>view</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,12 +167,12 @@
         <option value="$PROJECT_DIR$/templates/partilas/_navbar.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/partilas/_footer.html" />
-        <option value="$PROJECT_DIR$/templates/home/about_page.html" />
         <option value="$PROJECT_DIR$/templates/services/service_detail.html" />
         <option value="$PROJECT_DIR$/templates/contacts/contacts.html" />
         <option value="$PROJECT_DIR$/templates/projects/projects.html" />
-        <option value="$PROJECT_DIR$/scaf/settings.py" />
         <option value="$PROJECT_DIR$/templates/services/services.html" />
+        <option value="$PROJECT_DIR$/templates/home/about_page.html" />
+        <option value="$PROJECT_DIR$/scaf/settings.py" />
       </list>
     </option>
   </component>
@@ -305,12 +307,12 @@
       <workItem from="1563200751679" duration="282000" />
       <workItem from="1563207175845" duration="606000" />
       <workItem from="1563271010389" duration="20430000" />
-      <workItem from="1563372734978" duration="8396000" />
+      <workItem from="1563372734978" duration="9718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76145000" />
+    <option name="totallyTimeSpent" value="77467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
@@ -591,20 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scaf/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -612,23 +600,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scaf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-          <folding>
-            <marker date="1563380313672" expanded="true" signature="2024:2256" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/services/2019/07/16/construction-helmet-industry-1216589.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services/service_detail.html">
+    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="255">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="e#256#317#0#HTML" expanded="true" />
           </folding>
@@ -645,22 +623,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/projects/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services/service_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="e#256#317#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="114" column="113" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="113" />
+        <state relative-caret-position="162">
+          <caret line="114" column="117" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="117" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
+    <entry file="file://$PROJECT_DIR$/templates/home/about_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="405">
+          <caret line="76" column="82" selection-start-line="76" selection-start-column="82" selection-end-line="76" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="79" selection-start-line="79" selection-end-line="84" selection-end-column="3" />
           <folding>
-            <element signature="e#256#317#0#HTML" expanded="true" />
+            <marker date="1563390028968" expanded="true" signature="506:537" ph="..." />
+            <marker date="1563390028968" expanded="true" signature="2024:2256" ph="..." />
           </folding>
         </state>
       </provider>
