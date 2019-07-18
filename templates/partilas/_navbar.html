@@ -1,11 +1,13 @@
+{% load static %}
+
 <nav class="colorlib-nav" role="navigation">
     <div class="top-menu">
         <div class="container">
             <div class="row">
-                <div class="col-xs-2">
-                    <div id="colorlib-logo"><a href="{% url 'home' %}">ISP</a></div>
+                <div class="col-xs-3">
+                    <div id="colorlib-logo"><a href="{% url 'home' %}">ISP services</a></div>
                 </div>
-                <div class="col-xs-10 text-right menu-1">
+                <div class="col-xs-9 text-right menu-1">
                     <ul>
                         <li {% if '/' == request.path %} class="active" {% endif %}><a href="{% url 'home' %}">Home</a></li>
                         <li {% if 'projects' in request.path %} class="active" {% endif %}><a href="{% url 'projects' %}">Projects</a></li>
