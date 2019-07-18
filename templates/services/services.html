@@ -38,7 +38,7 @@
                                 </span>
                                 <div class="desc">
                                     <h3><a href="{% url 'service_detail' service.id %}">{{ service.title }}</a></h3>
-                                    <p>{{ service.description|linebreaks|slice:":200" }}... <a href="{% url 'service_detail' service.id %}">Читать больше<i class="icon-arrow-right3"></i></a></p>
+                                    <p>{{ service.description|linebreaks|slice:":200" }}... <a href="{% url 'service_detail' service.id %}">read more<i class="icon-arrow-right3"></i></a></p>
                                 </div>
                             </div>
                         </div>

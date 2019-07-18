@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decb3f6c-e4c0-4ed4-8dd5-3b63cbd884ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scaf/static/images/isp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contacts/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacts/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/about_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partilas/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partilas/_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partilas/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partilas/_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +35,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="172" selection-start-line="5" selection-start-column="172" selection-end-line="5" selection-end-column="172" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/services/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -82,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scaf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="-360">
               <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <marker date="1563449617591" expanded="true" signature="506:537" ph="..." />
@@ -100,15 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaf/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -169,7 +162,6 @@
         <option value="$PROJECT_DIR$/services/models.py" />
         <option value="$PROJECT_DIR$/templates/services/service_detail.html" />
         <option value="$PROJECT_DIR$/templates/projects/projects.html" />
-        <option value="$PROJECT_DIR$/templates/services/services.html" />
         <option value="$PROJECT_DIR$/templates/contacts/contacts.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/partilas/_navbar.html" />
@@ -177,6 +169,7 @@
         <option value="$PROJECT_DIR$/templates/partilas/_footer.html" />
         <option value="$PROJECT_DIR$/templates/home/about_page.html" />
         <option value="$PROJECT_DIR$/scaf/settings.py" />
+        <option value="$PROJECT_DIR$/templates/services/services.html" />
       </list>
     </option>
   </component>
@@ -202,12 +195,13 @@
             <path>
               <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scaf" type="b2602c69:ProjectViewProjectNode" />
               <item name="scaf" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,18 +293,18 @@
       <workItem from="1563207175845" duration="606000" />
       <workItem from="1563271010389" duration="20430000" />
       <workItem from="1563372734978" duration="10426000" />
-      <workItem from="1563447260745" duration="2359000" />
+      <workItem from="1563447260745" duration="4585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80534000" />
+    <option name="totallyTimeSpent" value="82760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27658403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27658403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +319,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002755" side_tool="true" weight="0.38552916" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4997245" visible="true" weight="0.38552916" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4997245" visible="true" weight="0.38552916" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -565,16 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="e#256#317#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scaf/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -640,12 +624,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scaf/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="-360">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <marker date="1563449617591" expanded="true" signature="506:537" ph="..." />
             <marker date="1563449617591" expanded="true" signature="2024:2256" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
