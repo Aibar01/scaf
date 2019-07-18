@@ -80,6 +80,23 @@
 					{% endfor %}
 
 				</div>
+
+                <div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
+						<span class="sm">Partners</span>
+						<h2><span class="thin">Our</span> <span class="thick">Clients</span></h2>
+					</div>
+				</div>
+				<div class="row">
+					{% for client in clients %}
+					    <div class="col-md-3 text-center animate-box">
+                            <div>
+                                <img src="{{ certificate.certificate_file.url }}" alt="clients"/>
+                            </div>
+                        </div>
+					{% endfor %}
+
+				</div>
 			</div>
 		</div>
 

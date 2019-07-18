@@ -23,3 +23,7 @@ class Review(models.Model):
 
     def __str__(self):
         return self.full_name
+
+
+class Clients(models.Model):
+    clients = models.ImageField(upload_to='clients/')

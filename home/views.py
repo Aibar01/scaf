@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from projects.models import Project
 from services.models import Service
-from .models import Engineer, Review, Certificate
+from .models import Engineer, Review, Certificate, Clients
 
 
 def home(request):
@@ -23,10 +23,12 @@ def about(request):
     certificates = Certificate.objects.all()
     reviews = Review.objects.all().order_by('-hire_date')
     engineers = Engineer.objects.all()
+    clients = Clients.objects.all()
     context = {
         'engineers': engineers,
         'reviews': reviews,
         'certificates': certificates,
+        'clients': clients,
     }
 
     if request.method == 'POST':
